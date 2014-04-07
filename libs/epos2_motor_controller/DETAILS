@@ -1,0 +1,14 @@
+          MODULE=epos2_motor_controller
+         VERSION=0.4
+          SOURCE=$VERSION.tar.gz
+      SOURCE_URL=https://github.com/jspricke/$MODULE/archive
+      SOURCE_VFY=sha1:a031677d38160f037667ed1d22de8071c290b7f4
+        WEB_SITE=https://github.com/jspricke/$MODULE
+         ENTERED=20130915
+         UPDATED=20131002
+           SHORT="IRI EPOS2 Driver"
+
+cat << EOF
+This module provides support for the
+Maxon EPOS2 Motor Controller
+EOF
