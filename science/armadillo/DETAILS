@@ -1,0 +1,15 @@
+       MODULE=armadillo
+      VERSION=3.910.1
+       SOURCE=$MODULE-$VERSION.tar.gz
+   SOURCE_URL=$SFORGE_URL/arma/files
+   SOURCE_VFY=sha1:453e43cedef7e120ec30f0158596f5284de11ddb
+     WEB_SITE=http://arma.sourceforge.net
+      ENTERED=20130919
+      UPDATED=20130919
+        SHORT="C++ Linear Algebra Library"
+
+cat << EOF
+Armadillo is a C++ linear algebra library
+(matrix maths) aiming towards a good balance
+between speed and ease of use.
+EOF
