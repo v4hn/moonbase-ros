@@ -1,0 +1,14 @@
+          MODULE=wstool
+         VERSION=0.1.4
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=http://pypi.python.org/packages/source/w/wstool
+      SOURCE_VFY=sha256:d5e11cdf865cf9093b45e866a00d4fc58f81c0829c2ae69b1b1c52fab0cb8936
+        WEB_SITE=http://pypi.python.org/pypi/wstool
+         ENTERED=20130415
+         UPDATED=20140828
+           SHORT="workspace multi-SCM commands"
+
+cat << EOF
+A tool for managing a workspace of multiple
+heterogenous SCM repositories.
+EOF
