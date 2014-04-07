@@ -1,0 +1,16 @@
+          MODULE=rosdistro
+         VERSION=0.3.5
+          SOURCE=$VERSION.tar.gz
+      SOURCE_URL=https://github.com/ros-infrastructure/rosdistro/archive
+      SOURCE_VFY=sha1:41a53123e52d228156780d81ea56ffeeac513d83
+        WEB_SITE=http://pypi.python.org/pypi/rosdistro
+         ENTERED=20130911
+         UPDATED=20140524
+           SHORT="Manage Dependencies in ROS"
+
+cat << EOF
+rosdistro is a file format for managing ROS Distributions
+and the ROS stacks they contain. This file format is used
+as input to a variety of tools in the ROS build and release
+toolchain, from stack release tools to rosdoc.
+EOF
