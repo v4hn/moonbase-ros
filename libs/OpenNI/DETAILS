@@ -1,0 +1,14 @@
+          MODULE=OpenNI
+         VERSION=Unstable-1.5.4.0
+          SOURCE=$VERSION.tar.gz
+      SOURCE_URL=https://github.com/$MODULE/$MODULE/archive
+      SOURCE_VFY=sha1:69eb24999b70c46e0befd5eff4a9c9a70d218f41
+        WEB_SITE=http://www.openni.org
+         ENTERED=20130417
+         UPDATED=20130913
+           SHORT="standard framework for 3D sensing"
+
+cat << EOF
+The OpenNI framework is an open source SDK used for the
+development of 3D sensing middleware libraries and applications.
+EOF

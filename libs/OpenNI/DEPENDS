@@ -1,0 +1,6 @@
+depends Python
+depends libusb
+
+depends freeglut
+
+depends sun-jdk
