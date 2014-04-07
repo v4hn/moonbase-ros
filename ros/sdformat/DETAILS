@@ -1,0 +1,17 @@
+          MODULE=sdformat
+         VERSION=2.0.1
+          COMMIT=d79259b26096
+          SOURCE=sdformat2_$VERSION.tar.bz2
+      SOURCE_URL=https://bitbucket.org/osrf/sdformat/get/
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/osrf-$MODULE-$COMMIT
+      SOURCE_VFY=sha256:a67c05185ab18ce22b577556bb709cf5804d3b7197a2e5940c4c087f92f431dc
+        WEB_SITE=http://sdformat.org
+         ENTERED=20130912
+         UPDATED=20140828
+           SHORT="Library for gazebo's Simulation Description Format"
+
+cat << EOF
+Gazebo is a multi-robot simulator for outdoor environments.
+This library implements a description format for components
+simulated in gazebo (robots, Sensors, ...)
+EOF

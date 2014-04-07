@@ -1,0 +1,4 @@
+depends cmake
+depends boost
+
+depends tinyxml
