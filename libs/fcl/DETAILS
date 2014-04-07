@@ -1,0 +1,14 @@
+          MODULE=fcl
+         VERSION=0.2.9
+          SOURCE=$VERSION.tar.gz
+      SOURCE_URL=https://github.com/flexible-collision-library/$MODULE/archive
+      SOURCE_VFY=sha1:ee45a4d7a2d3c56223929b452463035b3d8af1fb
+        WEB_SITE=https://github.com/flexible-collision-library/$MODULE
+         ENTERED=20130918
+         UPDATED=20130918
+           SHORT="The Flexible Collision Library"
+
+cat << EOF
+This library includes various techniques for
+efficient collision detection and proximity computation.
+EOF
