@@ -1,0 +1,14 @@
+          MODULE=rosinstall_generator
+         VERSION=0.1.9
+          SOURCE=$VERSION.tar.gz
+      SOURCE_URL=https://github.com/ros-infrastructure/rosinstall_generator/archive
+      SOURCE_VFY=sha1:5195ccd2286432fb72182857f4680f93f0ccdd5d
+        WEB_SITE=http://wiki.ros.org/rosinstall_generator
+         ENTERED=20130720
+         UPDATED=20140415
+           SHORT="The installer for ROS"
+
+cat << EOF
+ROS stands for Robot Operating System.
+This provides the ros package installer.
+EOF

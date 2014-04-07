@@ -1,0 +1,6 @@
+depends Python
+depends setuptools
+depends vcstools
+
+depends rosdistro
+depends catkin_pkg
