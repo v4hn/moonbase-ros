@@ -1,0 +1,19 @@
+          MODULE=ompl
+         VERSION=0.14.2
+          SOURCE=$MODULE-$VERSION-Source.tar.gz
+      SOURCE_URL=https://bitbucket.org/ompl/ompl/downloads
+      SOURCE_VFY=sha1:8410ea13e5b58c790cbfff7f369a09c6a0ea3a8f
+SOURCE_DIRECTORY=${BUILD_DIRECTORY}/$MODULE-$VERSION-Source
+        WEB_SITE=http://ompl.kavrakilab.org
+         ENTERED=20130919
+         UPDATED=20140524
+           SHORT="Open Motion Planning Library"
+
+cat << EOF
+The Open Motion Planning Library, consists of
+many state-of-the-art sampling-based motion planning algorithms.
+OMPL itself does not contain any code related to, e.g., collision
+checking or visualization. This is a deliberate design choice,
+so that OMPL is not tied to a particular collision checker
+or visualization front end.
+EOF
