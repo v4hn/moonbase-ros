@@ -1,0 +1,15 @@
+depends cmake
+depends libtar
+depends tinyxml
+depends FreeImage
+depends protobuf
+depends libX11
+depends curl
+
+depends sdformat
+depends ogre
+depends bullet
+
+optional_depends CEGUI "-DHAVE_CEGUI=ON" "-DHAVE_CEGUI=OFF" "for OpenGL menu"
+
+optional_depends gts "-DHAVE_GTS=ON" "-DHAVE_GTS=OFF" "for more MeshManager functionality"
