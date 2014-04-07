@@ -1,0 +1,6 @@
+default_pre_build &&
+
+# this patch is broken by design, but it works for now
+# see https://github.com/ros-infrastructure/rospkg/pull/50
+# for more on the issue
+patch_it $SCRIPT_DIRECTORY/rospkg-fallback-os.patch 1

@@ -1,0 +1,14 @@
+          MODULE=rospkg
+         VERSION=1.0.29
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=http://pypi.python.org/packages/source/r/rospkg
+      SOURCE_VFY=sha1:00a0bb6e4b0cd508d7730a4c9a18315a6ba691b5
+        WEB_SITE=http://pypi.python.org/pypi/rospkg
+         ENTERED=20130415
+         UPDATED=20140718
+           SHORT="The pkgconfig for ROS"
+
+cat << EOF
+ROS stands for Robot Operating System.
+This provides the ros package information retrieval module.
+EOF
