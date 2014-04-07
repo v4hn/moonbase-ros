@@ -1,0 +1,19 @@
+depends cmake
+depends boost
+
+depends flann
+depends eigen3
+
+optional_depends libpng  "-DWITH_PNG=1"    "-DWITH_PNG=0"    "for PNG image support"
+optional_depends qt4     "-DWITH_QT=1"     "-DWITH_QT=0"     "for Qt4 GUIs"
+optional_depends VTK     "-DWITH_VTK=1"    "-DWITH_VTK=0"    "for visualization support (highly recommended)"
+optional_depends OpenNI  "-DWITH_OPENNI=1" "-DWITH_OPENNI=0" "for Kinect Point Cloud Grabber"
+optional_depends libusb  "-DWITH_LIBUSB=1" "-DWITH_LIBUSB=0" "for DINAST Hardware support"
+optional_depends qhull   "-DWITH_QHULL=1"  "-DWITH_QHULL=0"  "for full surface detection support"
+optional_depends libpcap "-DWITH_PCAP=1"   "-DWITH_PCAP=0"   "for Velodyne HDL Hardware support"
+
+optional_depends doxygen                "-DWITH_DOCS=1"      "-DWITH_DOCS=0"      "for documentation"
+optional_depends sphinxcontrib-doxylink "-DWITH_TUTORIALS=1" "-DWITH_TUTORIALS=0" "for (html) tutorials ${PROBLEM_COLOR}(requires documentation)${QUERY_COLOR}"
+
+#optional_depends fzapi
+#optional_depends pxcapi
