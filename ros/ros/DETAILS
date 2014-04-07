@@ -1,0 +1,18 @@
+          MODULE=ros
+         VERSION=hydro
+SOURCE_DIRECTORY=${BUILD_DIRECTORY}/${MODULE}
+        WEB_SITE=http://ros.org
+         ENTERED=20130417
+         UPDATED=20131126
+           SHORT="Robot Operating System"
+         PROFILE=yes
+
+cat << EOF
+ROS is a huge standard system to control autonomous robot systems.
+This package installs all required dependencies for a desktop-full
+installation(without extra packages though) - it therefore
+replaces lunar support in rosdep for the basic installation.
+You can then continue to manually compile/install
+the ros distribution as explained at
+http://www.ros.org/wiki/$VERSION/Installation/Source
+EOF

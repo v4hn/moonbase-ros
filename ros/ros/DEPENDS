@@ -1,0 +1,65 @@
+depends cmake
+depends boost
+
+depends rosinstall
+depends rospkg
+depends catkin_pkg
+depends rosdistro
+depends rosinstall_generator
+depends wstool
+
+depends rosdep
+
+#depends rosdoc
+
+depends vcstools
+depends empy
+depends nose
+depends poco
+depends octave
+depends libccd
+depends libQGLViewer
+depends octomap
+depends assimp
+depends pygments
+depends eigen3
+depends Sphinx
+depends tinyxml
+depends apache-log4cxx
+depends yaml-cpp3
+depends qhull
+depends collada-dom
+depends ogre
+depends mongodb
+
+depends sip
+
+depends PyQt
+
+depends netifaces
+depends pydot
+
+depends libtar
+depends lz4
+
+depends protobuf
+
+# some core packages fail with default options without this
+depends gmock
+
+# for stage
+depends fltk
+
+# for moveit
+depends ompl
+
+depends pcl
+
+depends libg2o-git
+
+optional_depends VTK "" "" "for PCL visualization support (highly recommended)"
+optional_depends OpenNI "" "" "OpenNI support in PCL"
+
+#optional_depends pyside "" "" "Python bindings for GUIs"
+
+optional_depends gazebo "" "" "for the fully fledged Robot Simulator"
