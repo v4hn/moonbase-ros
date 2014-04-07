@@ -1,0 +1,18 @@
+          MODULE=libg2o-git
+         VERSION=git
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=git://github.com/RainerKuemmerle/g2o.git
+        WEB_SITE=https://github.com/RainerKuemmerle/g2o
+         ENTERED=20140210
+         UPDATED=20140210
+           SHORT="framework for optimizing nonlinear error functions"
+
+cat << EOF
+g2o is an open-source C++ framework for optimizing graph-based
+nonlinear error functions. g2o has been designed to be easily
+extensible to a wide range of problems and a new problem typically
+can be specified in a few lines of code.
+
+The current implementation provides solutions to several variants
+of SLAM and Bundle Adjustment.
+EOF

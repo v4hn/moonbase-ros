@@ -1,0 +1,9 @@
+depends cmake
+depends eigen3
+
+depends SuiteSparse
+depends lapack
+
+optional_depends mesa-lib "-DG2O_USE_OPENGL=1" "-DG2O_USE_OPENGL=0" "build visualization support"
+
+optional_depends libQGLViewer "" "" "build GUI"
