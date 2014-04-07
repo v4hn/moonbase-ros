@@ -1,0 +1,15 @@
+          MODULE=catkin_pkg
+         VERSION=0.2.4
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=http://pypi.python.org/packages/source/c/catkin_pkg
+      SOURCE_VFY=sha256:3d29a367cbac7057eba17c42fe1912bc34c35292a13d7f5093de9a315a1f40d9
+        WEB_SITE=http://pypi.python.org/pypi/catkin_pkg
+         ENTERED=20130415
+         UPDATED=20140828
+           SHORT="catkin package library for ROS"
+
+cat << EOF
+ROS stands for Robot Operating System.
+This provides the ros package information for catkin,
+the ROS build system.
+EOF
