@@ -1,0 +1,16 @@
+          MODULE=rosdep
+         VERSION=0.10.30
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=http://pypi.python.org/packages/source/r/rosdep
+      SOURCE_VFY=sha256:a6ab239e5f8687653937d223663938d6add9eabe1242093b9d3e32cf8bfa599a
+        WEB_SITE=http://pypi.python.org/pypi/rosdep
+         ENTERED=20130720
+         UPDATED=20140828
+           SHORT="package manager abstraction tool for ROS"
+
+cat << EOF
+ROS stands for Robot Operating System.
+This provides a command-line tool for installing
+system dependencies on a variety of platforms.
+However, not for Lunar.
+EOF

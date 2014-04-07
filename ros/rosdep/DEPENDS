@@ -1,0 +1,8 @@
+depends Python
+depends setuptools
+depends nose
+depends PyYAML
+#depends rosinstall
+depends rospkg
+depends catkin_pkg
+depends rosdistro
