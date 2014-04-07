@@ -1,0 +1,16 @@
+          MODULE=VTK
+         VERSION=6.1.0
+          SOURCE=$MODULE-$VERSION.tar.gz
+         SOURCE2=VTK-6.1-correct-cmake-defs.patch.xz
+      SOURCE_URL=http://www.vtk.org/files/release/${VERSION%.*}/
+     SOURCE2_URL=$PATCH_URL
+      SOURCE_VFY=sha1:91d1303558c7276f031f8ffeb47b4233f2fd2cd9
+     SOURCE2_VFY=sha1:48ab1876957c211c07cdb5fb0046b27165ed9570
+        WEB_SITE=http://www.vtk.org/
+         ENTERED=20101121
+         UPDATED=20140313
+           SHORT="Visualization ToolKit"
+
+cat << EOF
+For 3D computer graphics, image processing and visualization.
+EOF
