@@ -1,0 +1,16 @@
+          MODULE=urdfdom_headers
+         VERSION=0.3.0
+          SOURCE=$VERSION.tar.gz
+      SOURCE_URL=https://github.com/ros/urdfdom_headers/archive/
+      SOURCE_VFY=sha1:5790918d60be02711c6f4b3ea6871ffc21d75e17
+SOURCE_DIRECTORY=${BUILD_DIRECTORY}/$MODULE-$VERSION
+        WEB_SITE=https://github.com/ros/urdfdom
+         ENTERED=20140630
+         UPDATED=20140630
+           SHORT="U-Robot Description Format Data Structures"
+CLEAR_CACHE=on
+
+cat << EOF
+The URDF (U-Robot Description Format) headers provide core
+data structure headers for URDF.
+EOF

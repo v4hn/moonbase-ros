@@ -12,6 +12,8 @@ depends rosdep
 
 depends console_bridge
 
+depends urdfdom_headers
+
 #depends rosdoc
 
 depends vcstools
