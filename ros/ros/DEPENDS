@@ -13,6 +13,7 @@ depends rosdep
 depends console_bridge
 
 depends urdfdom_headers
+depends urdfdom
 
 #depends rosdoc
 

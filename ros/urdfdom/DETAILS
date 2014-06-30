@@ -1,0 +1,17 @@
+          MODULE=urdfdom
+         VERSION=0.3.0
+          SOURCE=$VERSION.tar.gz
+      SOURCE_URL=https://github.com/ros/urdfdom/archive/
+      SOURCE_VFY=sha1:2a5ac8c21913124749597d1c4e3258a9fd190fbe
+SOURCE_DIRECTORY=${BUILD_DIRECTORY}/$MODULE-$VERSION
+        WEB_SITE=https://github.com/ros/urdfdom
+         ENTERED=20140630
+         UPDATED=20140630
+           SHORT="U-Robot Description Format library"
+CLEAR_CACHE=on
+
+cat << EOF
+The URDF (U-Robot Description Format) library provides
+core data structures and a simple XML parsers for populating
+the class data structures from an URDF file.
+EOF

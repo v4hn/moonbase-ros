@@ -1,0 +1,3 @@
+default_pre_build &&
+
+sedit 's:--install-layout deb::' urdf_parser_py/CMakeLists.txt
