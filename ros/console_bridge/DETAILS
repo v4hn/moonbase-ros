@@ -1,0 +1,15 @@
+          MODULE=console_bridge
+         VERSION=0.2.7
+          SOURCE=$VERSION.tar.gz
+      SOURCE_URL=https://github.com/ros/console_bridge/archive/
+      SOURCE_VFY=sha1:8132b81e4a722347e4f64160f23c5bc07a4ae6e5
+SOURCE_DIRECTORY=${BUILD_DIRECTORY}/$MODULE-$VERSION
+        WEB_SITE=https://github.com/ros/console_bridge
+         ENTERED=20140630
+         UPDATED=20140630
+           SHORT="ROS logging integration for non-ROS modules"
+
+cat << EOF
+A ROS-independent package for loggin that seamlessly
+pipes into rosconsole/rosout for ROS-dependent packages.
+EOF

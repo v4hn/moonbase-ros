@@ -10,6 +10,8 @@ depends wstool
 
 depends rosdep
 
+depends console_bridge
+
 #depends rosdoc
 
 depends vcstools
