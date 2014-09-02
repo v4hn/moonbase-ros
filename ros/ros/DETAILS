@@ -1,9 +1,9 @@
           MODULE=ros
-         VERSION=hydro
+         VERSION=indigo
 SOURCE_DIRECTORY=${BUILD_DIRECTORY}/${MODULE}
         WEB_SITE=http://ros.org
          ENTERED=20130417
-         UPDATED=20131126
+         UPDATED=20140902
            SHORT="Robot Operating System"
          PROFILE=yes
 

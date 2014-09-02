@@ -31,11 +31,10 @@ depends eigen3
 depends Sphinx
 depends tinyxml
 depends apache-log4cxx
-depends yaml-cpp3
+depends yaml-cpp
 depends qhull
 depends collada-dom
 depends ogre
-depends mongodb
 
 depends sip
 
@@ -58,12 +57,15 @@ depends fltk
 # for moveit
 depends ompl
 
-depends pcl
 
 depends libg2o-git
 
-optional_depends VTK "" "" "for PCL visualization support (highly recommended)"
-optional_depends OpenNI "" "" "OpenNI support in PCL"
+depends mongo-cxx-driver
+optional_depends mongodb "" "" "to use ros' warehouse modules"
+
+optional_depends VTK "" "" "for PCL visualization support ${PROBLEM_COLOR}(highly recommended)"
+optional_depends OpenNI "" "" "OpenNI support"
+depends pcl
 
 #optional_depends pyside "" "" "Python bindings for GUIs"
 
