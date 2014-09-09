@@ -1,0 +1,4 @@
+default_pre_build &&
+
+# fix with boost 1.56
+sedit 's@default_error_checker<double>@default_error_checker<double,odeint::range_algebra,odeint::default_operations>@' src/ompl/control/ODESolver.h
