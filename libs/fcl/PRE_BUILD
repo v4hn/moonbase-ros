@@ -1,3 +1,0 @@
-default_pre_build &&
-
-sedit "s/uint/boost::uint/" include/fcl/data_types.h
