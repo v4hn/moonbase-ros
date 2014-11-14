@@ -4,7 +4,7 @@
       SOURCE_URL=git://github.com/RainerKuemmerle/g2o.git
         WEB_SITE=https://github.com/RainerKuemmerle/g2o
          ENTERED=20140210
-         UPDATED=20140210
+         UPDATED=20141027
            SHORT="framework for optimizing nonlinear error functions"
 
 cat << EOF
