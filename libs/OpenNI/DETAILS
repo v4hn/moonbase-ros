@@ -1,11 +1,11 @@
           MODULE=OpenNI
-         VERSION=Unstable-1.5.4.0
-          SOURCE=$VERSION.tar.gz
-      SOURCE_URL=https://github.com/$MODULE/$MODULE/archive
-      SOURCE_VFY=sha1:69eb24999b70c46e0befd5eff4a9c9a70d218f41
+         VERSION=Stable-1.5.7.10
+          SOURCE=$MODULE-$VERSION.tar.gz
+ SOURCE_URL_FULL=https://github.com/$MODULE/$MODULE/archive/$VERSION.tar.gz
+      SOURCE_VFY=sha256:34b0bbf68633bb213dcb15408f979d5384bdceb04e151fa519e107a12e225852
         WEB_SITE=http://www.openni.org
          ENTERED=20130417
-         UPDATED=20130913
+         UPDATED=20141114
            SHORT="standard framework for 3D sensing"
 
 cat << EOF
