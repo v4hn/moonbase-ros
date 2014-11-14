@@ -1,11 +1,11 @@
           MODULE=fcl
-         VERSION=0.3.1
+         VERSION=0.3.2
           SOURCE=$VERSION.tar.gz
       SOURCE_URL=https://github.com/flexible-collision-library/$MODULE/archive
-      SOURCE_VFY=sha256:cdb8247f40592bc1e96844e9efa9e3230b2e6a57d6c5f33fdd91d9250a3ebfc4
+      SOURCE_VFY=sha256:cf914f85b32cf8b63879907726df64e50da33f00d538759d789fe10fc5fbc95b
         WEB_SITE=https://github.com/flexible-collision-library/$MODULE
          ENTERED=20130918
-         UPDATED=20141027
+         UPDATED=20141114
            SHORT="The Flexible Collision Library"
 
 cat << EOF
