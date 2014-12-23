@@ -1,11 +1,11 @@
           MODULE=rosinstall
-         VERSION=0.7.3
+         VERSION=0.7.4
           SOURCE=$MODULE-$VERSION.tar.gz
       SOURCE_URL=http://pypi.python.org/packages/source/r/rosinstall
-      SOURCE_VFY=sha1:d19e8e8f36476f60559da70f1d1fb1cc389cbf15
+      SOURCE_VFY=sha256:65de7c1594e80799b2da68fc7c1d466bbec08a0cedd61437ae276e90f8cff411
         WEB_SITE=http://pypi.python.org/pypi/rosinstall
          ENTERED=20130415
-         UPDATED=20140125
+         UPDATED=20141223
            SHORT="The installer for ROS"
 
 cat << EOF
