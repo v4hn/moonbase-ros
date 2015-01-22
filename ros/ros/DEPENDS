@@ -26,7 +26,7 @@ depends libccd
 depends libQGLViewer
 depends octomap
 depends assimp
-depends pygments
+depends Pygments
 depends eigen3
 depends Sphinx
 depends tinyxml
