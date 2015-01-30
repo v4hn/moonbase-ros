@@ -3,4 +3,7 @@ default_pre_build &&
 patch_it $SOURCE2 1 &&
 
 # otherwise their only .a is not compiled with pic
-sedit '/vtk_add_library/ a set_target_properties(${vtk-module} PROPERTIES COMPILE_FLAGS -fPIC)' Wrapping/Tools/CMakeLists.txt
+sedit '/vtk_add_library/ a set_target_properties(${vtk-module} PROPERTIES COMPILE_FLAGS -fPIC)' Wrapping/Tools/CMakeLists.txt &&
+
+# fix build with recent mesa-lib
+sedit 's@//\(#define GLX_GLXEXT_LEGACY\)@\1@' Rendering/OpenGL/vtkXOpenGLRenderWindow.cxx
