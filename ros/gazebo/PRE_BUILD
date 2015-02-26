@@ -1,7 +1,6 @@
-default_pre_build &&
+# they add hg commit sums to the folder name - we don't want that here
+mk_source_dir &&
+cd $SOURCE_DIRECTORY &&
+tar -x --strip-components=1 -f $SOURCE_CACHE/$SOURCE &&
 
-sedit 's@gdal/@@' gazebo/common/{Dem.cc,DemPrivate.hh,Dem.hh} gazebo/physics/HeightmapShape.cc &&
-
-# make sources "compatible" with qt4's moc & boost
-grep -l -r "#include <boost/.*>" | xargs sed -i "s@.*#include <boost/.*>.*@#ifndef Q_MOC_RUN\n\0\n#endif@" &&
-grep -l -r "#include <sdf/sdf\.hh>" | xargs sed -i "s@.*#include <sdf/sdf\.hh>.*@#ifndef Q_MOC_RUN\n\0\n#endif@"
+sedit 's@gdal/@@' gazebo/common/{Dem.cc,DemPrivate.hh,Dem.hh} gazebo/physics/HeightmapShape.cc
