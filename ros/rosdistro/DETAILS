@@ -1,11 +1,11 @@
           MODULE=rosdistro
-         VERSION=0.4.0
+         VERSION=0.4.1
           SOURCE=$VERSION.tar.gz
       SOURCE_URL=https://github.com/ros-infrastructure/rosdistro/archive
-      SOURCE_VFY=sha256:91258fce18fbb6cc44ad2df2a0d06410b1db58b1dcd51b69a671b251de6e43d1
+      SOURCE_VFY=sha256:e85d46353922adf3808028a91c7d21046a782e8db30172cd2a4fc5f0b98b6abd
         WEB_SITE=http://pypi.python.org/pypi/rosdistro
          ENTERED=20130911
-         UPDATED=20141223
+         UPDATED=20150227
            SHORT="Manage Dependencies in ROS"
 
 cat << EOF
