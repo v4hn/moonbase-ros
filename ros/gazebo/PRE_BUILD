@@ -3,4 +3,7 @@ mk_source_dir &&
 cd $SOURCE_DIRECTORY &&
 tar -x --strip-components=1 -f $SOURCE_CACHE/$SOURCE &&
 
-sedit 's@gdal/@@' gazebo/common/{Dem.cc,DemPrivate.hh,Dem.hh} gazebo/physics/HeightmapShape.cc
+sedit 's@gdal/@@' gazebo/common/{Dem.cc,DemPrivate.hh,Dem.hh} gazebo/physics/HeightmapShape.cc &&
+
+# we're not ubuntu...
+sedit 's@/share/OGRE/cmake/modules@/lib/OGRE/cmake@' cmake/gazebo-config.cmake.in
