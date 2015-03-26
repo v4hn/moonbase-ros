@@ -1,0 +1,14 @@
+          MODULE=libphidget
+         VERSION=2.1.8.20150227
+          SOURCE=${MODULE}_$VERSION.tar.gz
+      SOURCE_URL=http://www.phidgets.com/downloads/libraries
+      SOURCE_VFY=sha256:9403753fb65da6e3d2dc3f8f12e563c568904e37aeb9f0ded23de2ebc0ba9a95
+        WEB_SITE=https://www.phidgets.com
+         ENTERED=20150327
+         UPDATED=20150327
+           SHORT="drivers for the Phidgets devices"
+
+cat << EOF
+This library provides interfaces to interact
+with Phidgets devices.
+EOF
