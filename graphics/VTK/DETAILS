@@ -1,14 +1,14 @@
           MODULE=VTK
-         VERSION=6.1.0
+         VERSION=6.2.0
           SOURCE=$MODULE-$VERSION.tar.gz
          SOURCE2=VTK-6.1-correct-cmake-defs.patch.xz
       SOURCE_URL=http://www.vtk.org/files/release/${VERSION%.*}/
      SOURCE2_URL=$PATCH_URL
-      SOURCE_VFY=sha1:91d1303558c7276f031f8ffeb47b4233f2fd2cd9
-     SOURCE2_VFY=sha1:48ab1876957c211c07cdb5fb0046b27165ed9570
+      SOURCE_VFY=sha256:efa3ddfba118f3988ead08bdaf9441d33f23a4245d78511a6ce7f267b4f13277
+     SOURCE2_VFY=sha256:a39bdd718c3401b471949950b22a708e0f51c1d4d8b439df99b4f37a099b426c
         WEB_SITE=http://www.vtk.org/
          ENTERED=20101121
-         UPDATED=20140313
+         UPDATED=20150330
            SHORT="Visualization ToolKit"
 
 cat << EOF
