@@ -1,11 +1,11 @@
           MODULE=libphidget
-         VERSION=2.1.8.20150227
+         VERSION=2.1.8.20150410
           SOURCE=${MODULE}_$VERSION.tar.gz
       SOURCE_URL=http://www.phidgets.com/downloads/libraries
-      SOURCE_VFY=sha256:9403753fb65da6e3d2dc3f8f12e563c568904e37aeb9f0ded23de2ebc0ba9a95
+      SOURCE_VFY=sha256:491580b8f8def0cbde55202fe8297e1d811eeaf2014b8b35883f7f86225d2bee
         WEB_SITE=https://www.phidgets.com
          ENTERED=20150327
-         UPDATED=20150327
+         UPDATED=20150424
            SHORT="drivers for the Phidgets devices"
 
 cat << EOF
