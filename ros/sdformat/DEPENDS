@@ -2,3 +2,4 @@ depends cmake
 depends boost
 
 depends tinyxml
+depends urdfdom
