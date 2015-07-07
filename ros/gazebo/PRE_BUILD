@@ -4,4 +4,7 @@ cd $SOURCE_DIRECTORY &&
 tar -x --strip-components=1 -f $SOURCE_CACHE/$SOURCE &&
 
 # bug: const bool != bool&
-sedit 's/OnFullScreen(bool &/OnFullScreen(bool /g' gazebo/gui/{TimePanel.cc,TimePanel.hh,RenderWidget.hh}
+sedit 's/OnFullScreen(bool &/OnFullScreen(bool /g' gazebo/gui/{TimePanel.cc,TimePanel.hh,RenderWidget.hh} &&
+
+# bullet interface changed
+sedit 's/btRotationalLimitMotor/btRotationalLimitMotor2/' gazebo/physics/bullet/BulletHinge2Joint.cc
