@@ -1,4 +1,7 @@
 # they add hg commit sums to the folder name - we don't want that here
 mk_source_dir &&
 cd $SOURCE_DIRECTORY &&
-tar -x --strip-components=1 -f $SOURCE_CACHE/$SOURCE
+tar -x --strip-components=1 -f $SOURCE_CACHE/$SOURCE &&
+
+sedit 's/^sdf_build_tests/# \0/' src/CMakeLists.txt &&
+sedit '/add_subdirectory(test)/ d' CMakeLists.txt

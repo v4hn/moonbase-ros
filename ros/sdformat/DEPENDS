@@ -3,3 +3,4 @@ depends boost
 
 depends tinyxml
 depends urdfdom
+depends ignition-math
