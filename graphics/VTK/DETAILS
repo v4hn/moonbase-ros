@@ -1,11 +1,11 @@
           MODULE=VTK
-         VERSION=6.2.0
+         VERSION=6.3.0
           SOURCE=$MODULE-$VERSION.tar.gz
       SOURCE_URL=http://www.vtk.org/files/release/${VERSION%.*}/
-      SOURCE_VFY=sha256:efa3ddfba118f3988ead08bdaf9441d33f23a4245d78511a6ce7f267b4f13277
+      SOURCE_VFY=sha256:92a493354c5fa66bea73b5fc014154af5d9f3f6cee8d20a826f4cd5d4b0e8a5e
         WEB_SITE=http://www.vtk.org/
          ENTERED=20101121
-         UPDATED=20150811
+         UPDATED=20150909
            SHORT="Visualization ToolKit"
 
 cat << EOF
