@@ -35,8 +35,8 @@ index 2bdb2db..988761f 100644
 @@ -485,7 +501,7 @@ OsDetect.register_default(OS_OSX, OSX())
  OsDetect.register_default(OS_RHEL, Rhel())
  OsDetect.register_default(OS_UBUNTU, LsbDetect("Ubuntu"))
- OsDetect.register_default(OS_WINDOWS, Windows())    
--    
+ OsDetect.register_default(OS_WINDOWS, Windows())
+-
 +OsDetect.register_default(OS_UNKNOWN, Unknown())
  
  if __name__ == '__main__':
