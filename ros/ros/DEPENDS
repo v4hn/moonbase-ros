@@ -27,6 +27,7 @@ depends libQGLViewer
 depends octomap
 depends assimp
 depends Pygments
+depends matplotlib
 depends eigen3
 depends Sphinx
 depends tinyxml
