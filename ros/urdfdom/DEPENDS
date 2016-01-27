@@ -1,3 +1,4 @@
 depends cmake
 depends Python
 depends urdfdom_headers
+depends tinyxml
