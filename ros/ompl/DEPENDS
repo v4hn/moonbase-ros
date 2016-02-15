@@ -1,2 +1,4 @@
 depends cmake
 depends boost
+
+optional_depends eigen3 "" "" "for an informed sampling technique"
