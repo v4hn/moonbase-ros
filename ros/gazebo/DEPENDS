@@ -1,6 +1,7 @@
 depends cmake
 depends libtar
 depends tinyxml
+depends tinyxml2
 depends FreeImage
 depends protobuf
 depends libX11
