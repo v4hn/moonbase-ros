@@ -1,11 +1,11 @@
           MODULE=urdfdom
-         VERSION=0.3.0
+         VERSION=0.4.1
           SOURCE=$MODULE-$VERSION.tar.gz
  SOURCE_URL_FULL=https://github.com/ros/urdfdom/archive/$VERSION.tar.gz
-      SOURCE_VFY=sha1:2a5ac8c21913124749597d1c4e3258a9fd190fbe
+      SOURCE_VFY=sha256:6552e2b6de63b0ff7300909fa69d9bab18381b6184a05dc2fe744b2334a9fde5
         WEB_SITE=https://github.com/ros/urdfdom
          ENTERED=20140630
-         UPDATED=20140630
+         UPDATED=20160215
            SHORT="U-Robot Description Format library"
 
 cat << EOF
