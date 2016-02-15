@@ -1,11 +1,11 @@
        MODULE=armadillo
-      VERSION=6.100.1
+      VERSION=6.500.5
        SOURCE=$MODULE-$VERSION.tar.gz
    SOURCE_URL=$SFORGE_URL/arma/files
-   SOURCE_VFY=sha256:4f93fe657de27cbfbd25bea929c2fcf79981ad71dd388310d5d003ccfce4e32f
+   SOURCE_VFY=sha256:eb1ffbcd779d3f158b541211ca1ed5111a0b9dd11157778978bb64e48067e5ee
      WEB_SITE=http://arma.sourceforge.net
       ENTERED=20130919
-      UPDATED=20151028
+      UPDATED=20160215
         SHORT="C++ Linear Algebra Library"
 
 cat << EOF
