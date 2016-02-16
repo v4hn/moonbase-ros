@@ -2,3 +2,4 @@ depends cmake
 depends Python
 depends urdfdom_headers
 depends tinyxml
+depends console_bridge
