@@ -1,0 +1,16 @@
+       MODULE=nlopt
+      VERSION=2.4.2
+       SOURCE=$MODULE-$VERSION.tar.gz
+   SOURCE_URL=http://ab-initio.mit.edu/$MODULE
+   SOURCE_VFY=sha256:8099633de9d71cbc06cd435da993eb424bbcdbded8f803cdaa9fb8c6e09c8e89
+     WEB_SITE=http://ab-initio.mit.edu/wiki/index.php/NLopt
+      ENTERED=20160530
+      UPDATED=20160530
+        SHORT="library for nonlinear optimization"
+
+cat << EOF
+NLopt is a free/open-source library for nonlinear optimization,
+providing a common interface for a number of different free optimization
+routines available online as well as original implementations
+of various other algorithms.
+EOF
