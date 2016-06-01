@@ -1,4 +1,4 @@
 default_pre_build &&
 
 sedit 's@/usr/local@/usr@g' Makefile &&
-sedit 's@all: examples@all: library@' Makefile
+sedit 's@all: examples.*@all: library@' Makefile
