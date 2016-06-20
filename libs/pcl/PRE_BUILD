@@ -1,4 +1,0 @@
-default_pre_build &&
-
-# fixed in next release
-sedit '/vtkAppendPolyData/ i #include <vtkVersion.h>' visualization/include/pcl/visualization/vtk.h
