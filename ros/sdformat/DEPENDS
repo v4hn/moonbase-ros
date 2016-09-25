@@ -1,5 +1,6 @@
 depends cmake
 depends boost
+depends ruby
 
 depends tinyxml
 depends urdfdom
