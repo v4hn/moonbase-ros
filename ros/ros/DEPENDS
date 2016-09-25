@@ -56,17 +56,26 @@ depends gmock
 depends fltk
 
 # for moveit
-depends ompl
-
+optional_depends ompl "" "" "for MoveIt!"
+optional_depends fcl "" "" "for MoveIt!"
 
 depends libg2o-git
+
+depends opencv
+
+optional_depends VTK "" "" "for PCL visualization support ${PROBLEM_COLOR}(highly recommended)"
+depends pcl
+
+optional_depends libuvc "" "" "for the libuvc_camera module"
 
 depends mongo-cxx-driver
 optional_depends mongodb "" "" "to use ros' warehouse modules"
 
-optional_depends VTK "" "" "for PCL visualization support ${PROBLEM_COLOR}(highly recommended)"
+optional_depends postgresql "" "" "for ros' sql_database module"
+
+optional_depends SDL_image "" "" "for ros' map_server module"
+
 optional_depends OpenNI "" "" "OpenNI support"
-depends pcl
 
 #optional_depends pyside "" "" "Python bindings for GUIs"
 
