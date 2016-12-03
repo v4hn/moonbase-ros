@@ -64,7 +64,9 @@ depends libg2o-git
 depends opencv
 
 optional_depends VTK "" "" "for PCL visualization support ${PROBLEM_COLOR}(highly recommended)"
-depends pcl
+
+# Lunar requires a current pcl git HEAD because of VTK7.1
+#depends pcl
 
 optional_depends libuvc "" "" "for the libuvc_camera module"
 
