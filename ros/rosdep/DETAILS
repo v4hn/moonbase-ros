@@ -1,11 +1,11 @@
           MODULE=rosdep
-         VERSION=0.11.4
+         VERSION=0.11.5
           SOURCE=$MODULE-$VERSION.tar.gz
-      SOURCE_URL=http://pypi.python.org/packages/source/r/rosdep
-      SOURCE_VFY=sha256:e4f31d4d0245798b1bc5fb16a111456ea308d9fb7b1f2d202d0fea8475c88bb8
+      SOURCE_URL=http://download.ros.org/downloads/rosdep
+      SOURCE_VFY=sha256:46e072074270a1ea25411829814f4bdc1f34b358c950e9b8a7b75b4a40efd96a
         WEB_SITE=http://pypi.python.org/pypi/rosdep
          ENTERED=20130720
-         UPDATED=20151028
+         UPDATED=20161223
            SHORT="package manager abstraction tool for ROS"
 
 cat << EOF
