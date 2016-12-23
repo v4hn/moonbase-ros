@@ -1,9 +1,9 @@
           MODULE=ros
-         VERSION=indigo
+         VERSION=kinetic
 SOURCE_DIRECTORY=${BUILD_DIRECTORY}/${MODULE}
         WEB_SITE=http://ros.org
          ENTERED=20130417
-         UPDATED=20140902
+         UPDATED=20161223
            SHORT="Robot Operating System"
          PROFILE=yes
 
