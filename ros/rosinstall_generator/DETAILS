@@ -1,11 +1,11 @@
           MODULE=rosinstall_generator
-         VERSION=0.1.11
+         VERSION=0.1.13
           SOURCE=$MODULE-$VERSION.tar.gz
  SOURCE_URL_FULL=https://github.com/ros-infrastructure/rosinstall_generator/archive/$VERSION.tar.gz
-      SOURCE_VFY=sha256:cbb87d76a35d14d9dc5728c53e0027fe855830daacf6b4aa78b336fad03a297d
+      SOURCE_VFY=sha256:90e7689750e1b07ec1aa647bb8f34ea6efe7777f8d349c9698428afb56733cd0
         WEB_SITE=http://wiki.ros.org/rosinstall_generator
          ENTERED=20130720
-         UPDATED=20150227
+         UPDATED=20161223
            SHORT="The installer for ROS"
 
 cat << EOF
