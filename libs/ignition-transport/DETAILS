@@ -1,0 +1,16 @@
+          MODULE=ignition-transport
+         VERSION=3.0.1
+          SOURCE=${MODULE}${VERSION%%.*}_$VERSION.tar.bz2
+      SOURCE_URL=https://bitbucket.org/ignitionrobotics/ign-transport/get/
+      SOURCE_VFY=sha256:02ecdd92fa11d22826b1b415464796e384a59e6a748ab10b74f09dc2265adadc
+        WEB_SITE=http://ignitionrobotics.org/libraries/transport
+         ENTERED=20170329
+         UPDATED=20170329
+           SHORT="a fast and efficient message passing system"
+
+cat << EOF
+The transport library combines ZeroMQ with Protobufs to create
+a fast and efficient message passing system. Asynchronous message
+publication and subscription is provided along with service calls
+and discovery.
+EOF
