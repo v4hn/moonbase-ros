@@ -1,11 +1,11 @@
           MODULE=ignition-math
-         VERSION=2.6.0
+         VERSION=3.0.0
           SOURCE=${MODULE}${VERSION%%.*}_$VERSION.tar.bz2
       SOURCE_URL=https://bitbucket.org/ignitionrobotics/ign-math/get/
-      SOURCE_VFY=sha256:942b10bdcb0bdd389b5cd907ad33b87e93a5ed6c5fd822a93bd92ae9be98a29b
+      SOURCE_VFY=sha256:71fd3ff4a0e99d28f16e20c01ebff70d63ca22e8d7154e94a16b483fe1477cea
         WEB_SITE=http://ignitionrobotics.org/libraries/math
          ENTERED=20150908
-         UPDATED=20161223
+         UPDATED=20170329
            SHORT="A small, fast, and high performance math library"
 
 cat << EOF
