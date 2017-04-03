@@ -3,4 +3,4 @@ mk_source_dir &&
 cd $SOURCE_DIRECTORY &&
 tar -x --strip-components=1 -f $SOURCE_CACHE/$SOURCE &&
 
-sedit 's/XML_NO_ERROR/XML_SUCCESS/' gazebo/util/LogPlay.cc
+sedit 's:qwt PATHS:\0 /usr/lib/qwt-6:' cmake/SearchForStuff.cmake
