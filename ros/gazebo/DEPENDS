@@ -7,6 +7,10 @@ depends protobuf
 depends libX11
 depends curl
 
+depends ignition-math
+depends ignition-msgs
+depends ignition-transport
+
 depends sdformat
 depends ogre
 depends bullet
