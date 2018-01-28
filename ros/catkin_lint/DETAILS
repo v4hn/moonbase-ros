@@ -1,11 +1,11 @@
           MODULE=catkin_lint
-         VERSION=1.4.17
+         VERSION=1.4.19
           SOURCE=$MODULE-$VERSION.tar.gz
  SOURCE_URL_FULL=https://github.com/fkie/catkin_lint/archive/$VERSION.tar.gz
-      SOURCE_VFY=sha256:b50e77586f3658e05e9852d12b212f34f4b6ff562cef6122ee6f35fd355cc284
+      SOURCE_VFY=sha256:2913052bf13135314a935499dea46c7b18b4874288d17a9a76af63887a41bdc6
         WEB_SITE=http://pypi.python.org/pypi/catkin_lint
          ENTERED=20140829
-         UPDATED=20171208
+         UPDATED=20180128
            SHORT="check ros modules for common mistakes"
 
 cat << EOF
