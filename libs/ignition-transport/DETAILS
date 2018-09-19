@@ -1,11 +1,12 @@
           MODULE=ignition-transport
-         VERSION=3.0.1
+         VERSION=4.0.0
           SOURCE=${MODULE}${VERSION%%.*}_$VERSION.tar.bz2
       SOURCE_URL=https://bitbucket.org/ignitionrobotics/ign-transport/get/
-      SOURCE_VFY=sha256:02ecdd92fa11d22826b1b415464796e384a59e6a748ab10b74f09dc2265adadc
+      SOURCE_VFY=sha256:72d1e603b9c0ffb54b088f9e42fc27f9e5971a4dac076351b592cb3938ce96d1
         WEB_SITE=http://ignitionrobotics.org/libraries/transport
+            TYPE=cmake
          ENTERED=20170329
-         UPDATED=20170329
+         UPDATED=20180904
            SHORT="a fast and efficient message passing system"
 
 cat << EOF

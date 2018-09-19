@@ -1,2 +1,2 @@
-OPTS+=" -DENABLE_TESTS_COMPILATION=OFF" &&
+OPTS+=" -DBUILD_TESTING=OFF" &&
 default_cmake_build

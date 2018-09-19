@@ -1,0 +1,16 @@
+          MODULE=ignition-cmake
+         VERSION=0.6.0
+          SOURCE=${MODULE}_$VERSION.tar.bz2
+      SOURCE_URL=https://bitbucket.org/ignitionrobotics/ign-cmake/get/
+      SOURCE_VFY=sha256:736026a98fdd18f3f6699cd12aef23cdfe8728330241e95fc7f5114abd65fb95
+        WEB_SITE=http://ignitionrobotics.org/libraries/cmake
+            TYPE=cmake
+         ENTERED=20180904
+         UPDATED=20180904
+           SHORT="cmake support for ignition projects"
+
+cat << EOF
+Provides modules that are used to find dependencies
+of ignition projects and generate cmake targets
+for consumers of ignition projects to link against.
+EOF

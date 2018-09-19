@@ -1,0 +1,6 @@
+depends cmake
+depends protobuf
+depends zeromq
+depends cppzmq
+
+depends ignition-msgs

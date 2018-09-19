@@ -1,11 +1,12 @@
           MODULE=ignition-msgs
-         VERSION=0.7.0
+         VERSION=1.0.0
           SOURCE=${MODULE}_$VERSION.tar.bz2
       SOURCE_URL=https://bitbucket.org/ignitionrobotics/ign-msgs/get/
-      SOURCE_VFY=sha256:b62b1fc22592d45fd189c13ef6696c22a34c5755f3ff2fb1a62488adaf361a0d
+      SOURCE_VFY=sha256:d5922f9f160aebc6fb1d6de32054e17c9493a6995ea0f1f3a56ba6448c3040ab
         WEB_SITE=http://ignitionrobotics.org/libraries/messages
+            TYPE=cmake
          ENTERED=20170329
-         UPDATED=20170329
+         UPDATED=20180904
            SHORT="protobuf messages and functions for robots"
 
 cat << EOF
