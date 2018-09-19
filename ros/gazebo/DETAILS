@@ -1,11 +1,12 @@
           MODULE=gazebo
-         VERSION=8.0.0
+         VERSION=9.3.1
           SOURCE=${MODULE}${VERSION%%.*}_$VERSION.tar.bz2
       SOURCE_URL=https://bitbucket.org/osrf/gazebo/get
-      SOURCE_VFY=sha256:f5e61d6a8ccea350e4db57c655575219266643f8faa2991bc0f6ff21794fd65e
+      SOURCE_VFY=sha256:33c970576d36a5db1b84f3e01e49dcb5976d4013d58f6308d32ca8e819fba975
         WEB_SITE=http://gazebosim.org
+            TYPE=cmake
          ENTERED=20130415
-         UPDATED=20170329
+         UPDATED=20180904
            SHORT="multi-robot simulator for outdoor environments"
 
 cat << EOF

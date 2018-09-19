@@ -1,11 +1,12 @@
           MODULE=rospkg
-         VERSION=1.0.41
+         VERSION=1.1.2
           SOURCE=$MODULE-$VERSION.tar.gz
       SOURCE_URL=http://download.ros.org/downloads/rospkg
-      SOURCE_VFY=sha256:cf57c8d846eea89fd275a9bc24a46c3e10a4487139386dc37bd09f138f2dfd3e
+      SOURCE_VFY=sha256:a600d0bdf16fff38ee8b4cbb67a7d1b07cdb05bfdacfc6e8142ca37b4ae71011
         WEB_SITE=http://pypi.python.org/pypi/rospkg
+            TYPE=python3
          ENTERED=20130415
-         UPDATED=20161223
+         UPDATED=20170821
            SHORT="The pkgconfig for ROS"
 
 cat << EOF

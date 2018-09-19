@@ -4,4 +4,9 @@ cd $SOURCE_DIRECTORY &&
 tar -x --strip-components=1 -f $SOURCE_CACHE/$SOURCE &&
 
 sedit 's/^sdf_build_tests/# \0/' src/CMakeLists.txt &&
-sedit '/add_subdirectory(test)/ d' CMakeLists.txt
+sedit '/add_subdirectory(test)/ d' CMakeLists.txt &&
+
+sedit '1 i #include <boost/algorithm/string.hpp>
+       s@boost::\(shared_ptr\)@std::\1@g;
+       s@boost::\([^_]*_pointer_cast\)@std::\1@g' \
+  src/parser_urdf.cc 

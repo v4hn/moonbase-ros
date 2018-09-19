@@ -1,6 +1,6 @@
-depends Python
-depends setuptools
+depends python
+depends python-setuptools
 depends python-dateutil
-depends PyYAML
+depends python-yaml
 
 depends rosinstall

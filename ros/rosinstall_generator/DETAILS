@@ -4,6 +4,7 @@
  SOURCE_URL_FULL=https://github.com/ros-infrastructure/rosinstall_generator/archive/$VERSION.tar.gz
       SOURCE_VFY=sha256:90e7689750e1b07ec1aa647bb8f34ea6efe7777f8d349c9698428afb56733cd0
         WEB_SITE=http://wiki.ros.org/rosinstall_generator
+            TYPE=python3
          ENTERED=20130720
          UPDATED=20161223
            SHORT="The installer for ROS"

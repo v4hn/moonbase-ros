@@ -1,0 +1,11 @@
+--- gazebo/common/CommonIface.hh.orig	2018-09-07 11:45:57.337025417 +0800
++++ gazebo/common/CommonIface.hh	2018-09-07 11:46:07.354800888 +0800
+@@ -19,7 +19,7 @@
+ 
+ #include <string>
+ #include <vector>
+-#include <boost/uuid/sha1.hpp>
++#include <boost/uuid/detail/sha1.hpp>
+ #include <boost/filesystem.hpp>
+ #include <iomanip>
+ #include <sstream>

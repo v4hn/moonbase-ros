@@ -4,6 +4,7 @@
  SOURCE_URL_FULL=https://github.com/fkie/catkin_lint/archive/$VERSION.tar.gz
       SOURCE_VFY=sha256:2913052bf13135314a935499dea46c7b18b4874288d17a9a76af63887a41bdc6
         WEB_SITE=http://pypi.python.org/pypi/catkin_lint
+            TYPE=python3
          ENTERED=20140829
          UPDATED=20180128
            SHORT="check ros modules for common mistakes"

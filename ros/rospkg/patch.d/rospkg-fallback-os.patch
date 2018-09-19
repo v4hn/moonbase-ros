@@ -25,15 +25,15 @@ index 2bdb2db..988761f 100644
      """
      This class will iterate over registered classes to lookup the
 @@ -472,6 +487,7 @@ OS_OSX='osx'
- OS_RHEL='rhel'
- OS_UBUNTU='ubuntu'
- OS_WINDOWS='windows'
-+OS_UNKNOWN='unknown'
+ OS_SLACKWARE = 'slackware'
+ OS_UBUNTU = 'ubuntu'
+ OS_WINDOWS = 'windows'
++OS_UNKNOWN = 'unknown'
  
  OsDetect.register_default(OS_ARCH, Arch())
  OsDetect.register_default(OS_CYGWIN, Cygwin())
 @@ -485,7 +501,7 @@ OsDetect.register_default(OS_OSX, OSX())
- OsDetect.register_default(OS_RHEL, Rhel())
+ OsDetect.register_default(OS_SLACKWARE, Slackware())
  OsDetect.register_default(OS_UBUNTU, LsbDetect("Ubuntu"))
  OsDetect.register_default(OS_WINDOWS, Windows())
 -

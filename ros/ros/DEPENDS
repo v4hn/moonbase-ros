@@ -61,7 +61,7 @@ optional_depends fcl "" "" "for MoveIt!"
 
 depends libg2o-git
 
-depends opencv
+depends opencv-3
 
 optional_depends VTK "" "" "for PCL visualization support ${PROBLEM_COLOR}(highly recommended)"
 

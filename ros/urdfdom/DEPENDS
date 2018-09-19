@@ -1,5 +1,5 @@
 depends cmake
-depends Python
+depends python
 depends urdfdom_headers
 depends tinyxml
 depends console_bridge

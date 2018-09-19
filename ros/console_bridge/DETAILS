@@ -5,6 +5,7 @@
       SOURCE_VFY=sha256:fd12e48c672cb9c5d516d90429c4a7ad605859583fc23d98258c3fa7a12d89f4
 SOURCE_DIRECTORY=${BUILD_DIRECTORY}/$MODULE-$VERSION
         WEB_SITE=https://github.com/ros/console_bridge
+            TYPE=cmake
          ENTERED=20140630
          UPDATED=20160215
            SHORT="ROS logging integration for non-ROS modules"

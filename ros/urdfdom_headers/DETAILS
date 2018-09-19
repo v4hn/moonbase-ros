@@ -1,12 +1,13 @@
           MODULE=urdfdom_headers
-         VERSION=0.4.0
+         VERSION=1.0.0
           SOURCE=$MODULE-$VERSION.tar.gz
  SOURCE_URL_FULL=https://github.com/ros/urdfdom_headers/archive/$VERSION.tar.gz
-      SOURCE_VFY=sha256:01fec111f91805eb5bcbbee56b5da7413de7a7485ad4c63ea51614ebdfc25eca
+      SOURCE_VFY=sha256:f341e9956d53dc7e713c577eb9a8a7ee4139c8b6f529ce0a501270a851673001
 SOURCE_DIRECTORY=${BUILD_DIRECTORY}/$MODULE-$VERSION
         WEB_SITE=https://github.com/ros/urdfdom_headers
-         ENTERED=20140630
-         UPDATED=20140630
+            TYPE=cmake
+         ENTERED=20170821
+         UPDATED=20170821
            SHORT="U-Robot Description Format Data Structures"
 
 cat << EOF

@@ -1,11 +1,12 @@
           MODULE=wstool
-         VERSION=0.1.16
+         VERSION=0.1.17
           SOURCE=$MODULE-$VERSION.tar.gz
       SOURCE_URL=http://download.ros.org/downloads/$MODULE
-      SOURCE_VFY=sha256:3f4ebc4c97676f7c6d868037a72f71f57fc532490699f1cdbef234d923f2f151
+      SOURCE_VFY=sha256:c79b4f110ef17004c24972d742d2c5f606b0f6b424295e7ed029a48e857de237
         WEB_SITE=http://wiki.ros.org/wstool
+            TYPE=python3
          ENTERED=20130415
-         UPDATED=20180111
+         UPDATED=20180904
            SHORT="workspace multi-SCM commands"
 
 cat << EOF

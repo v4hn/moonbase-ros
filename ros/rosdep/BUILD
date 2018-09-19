@@ -1,6 +1,3 @@
-python setup.py build    &&
-prepare_install          &&
-
-python setup.py install --root=/ &&
+default_python3_build &&
 
 rosdep init

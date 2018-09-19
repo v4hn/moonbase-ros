@@ -1,11 +1,11 @@
           MODULE=sdformat
-         VERSION=5.1.0
+         VERSION=6.0.0
           SOURCE=sdformat${VERSION%%.*}_$VERSION.tar.bz2
       SOURCE_URL=https://bitbucket.org/osrf/sdformat/get/
-      SOURCE_VFY=sha256:d781401d20595628d86205d6a5692ac06578466b3fe4c1b313df5e340759de89
+      SOURCE_VFY=sha256:bf1c87b253e2219dfeea338686f87a43e041367fc1ea44bada75b0d9e8c468a4
         WEB_SITE=http://sdformat.org
          ENTERED=20130912
-         UPDATED=20170329
+         UPDATED=20180904
            SHORT="Library for gazebo's Simulation Description Format"
 
 cat << EOF

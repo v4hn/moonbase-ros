@@ -13,6 +13,6 @@ depends ignition-transport
 
 depends sdformat
 depends ogre
-depends bullet
+depends bullet3
 
 optional_depends gts "-DHAVE_GTS=ON" "-DHAVE_GTS=OFF" "for more MeshManager functionality"

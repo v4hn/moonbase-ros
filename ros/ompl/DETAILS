@@ -1,12 +1,12 @@
           MODULE=ompl
-         VERSION=1.2.1
+         VERSION=1.4.0
           SOURCE=$MODULE-$VERSION-Source.tar.gz
       SOURCE_URL=https://bitbucket.org/ompl/ompl/downloads
-      SOURCE_VFY=sha256:9d00fdb262222ba5ff5732be84212c6b0ba769b0b0fb64a1189e5f1db1c568eb
+      SOURCE_VFY=sha256:da8c273a2ed946fbcd7b721649a4767fdc1433e257bdc9a3d6c689b81261cc4f
 SOURCE_DIRECTORY=${BUILD_DIRECTORY}/$MODULE-$VERSION-Source
         WEB_SITE=http://ompl.kavrakilab.org
          ENTERED=20130919
-         UPDATED=20161004
+         UPDATED=20180521
            SHORT="Open Motion Planning Library"
 
 cat << EOF

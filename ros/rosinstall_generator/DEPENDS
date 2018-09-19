@@ -1,6 +1,6 @@
-depends Python
-depends setuptools
-depends vcstools
+depends python
+depends python-setuptools
+depends python-vcstools
 
 depends rosdistro
 depends catkin_pkg
