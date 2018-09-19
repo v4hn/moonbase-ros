@@ -1,12 +1,12 @@
-       MODULE=nlopt
-      VERSION=2.4.2
-       SOURCE=$MODULE-$VERSION.tar.gz
-   SOURCE_URL=http://ab-initio.mit.edu/$MODULE
-   SOURCE_VFY=sha256:8099633de9d71cbc06cd435da993eb424bbcdbded8f803cdaa9fb8c6e09c8e89
-     WEB_SITE=http://ab-initio.mit.edu/wiki/index.php/NLopt
-      ENTERED=20160530
-      UPDATED=20160530
-        SHORT="library for nonlinear optimization"
+         MODULE=nlopt
+        VERSION=2.5.0
+         SOURCE=$MODULE-$VERSION.tar.gz
+SOURCE_URL_FULL=https://github.com/stevengj/nlopt/archive/v$VERSION.tar.gz
+     SOURCE_VFY=sha256:c6dd7a5701fff8ad5ebb45a3dc8e757e61d52658de3918e38bab233e7fd3b4ae
+       WEB_SITE=http://ab-initio.mit.edu/wiki/index.php/NLopt
+        ENTERED=20160530
+        UPDATED=20180904
+          SHORT="library for nonlinear optimization"
 
 cat << EOF
 NLopt is a free/open-source library for nonlinear optimization,

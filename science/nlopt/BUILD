@@ -1,5 +1,2 @@
-OPTS+=" --disable-static --enable-shared" &&
-
-OPTS+=" --without-octave" &&
-
-default_build
+OPTS+=" -DNLOPT_MATLAB=OFF" &&
+default_cmake_build
