@@ -1,0 +1,11 @@
+--- segmentation/include/pcl/segmentation/plane_coefficient_comparator.h.orig	2018-09-07 11:20:27.331012002 +0800
++++ segmentation/include/pcl/segmentation/plane_coefficient_comparator.h	2018-09-07 11:22:42.182604545 +0800
+@@ -141,7 +141,7 @@
+       const std::vector<float>&
+       getPlaneCoeffD () const
+       {
+-        return (plane_coeff_d_);
++        return (*plane_coeff_d_);
+       }
+ 
+       /** \brief Set the tolerance in radians for difference in normal direction between neighboring points, to be considered part of the same plane.

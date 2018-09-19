@@ -1,0 +1,94 @@
+diff -rU3 pcl-pcl-1.8.1-patched/visualization/include/pcl/visualization/common/common.h pcl-pcl-1.8.1/visualization/include/pcl/visualization/common/common.h
+--- pcl-pcl-1.8.1-patched/visualization/include/pcl/visualization/common/common.h	2017-08-08 08:04:14.000000000 +0200
++++ pcl-pcl-1.8.1/visualization/include/pcl/visualization/common/common.h	2018-01-19 11:08:48.264172311 +0100
+@@ -102,7 +102,7 @@
+       PCL_VISUALIZER_FONT_SIZE,
+       PCL_VISUALIZER_COLOR,                 /**< 3 floats (R, G, B) going from 0.0 (dark) to 1.0 (light) */
+       PCL_VISUALIZER_REPRESENTATION,
+-      PCL_VISUALIZER_IMMEDIATE_RENDERING,
++      PCL_VISUALIZER_IMMEDIATE_RENDERING,   /** obsolete */
+       PCL_VISUALIZER_SHADING,
+       PCL_VISUALIZER_LUT,                   /**< colormap type \ref pcl::visualization::LookUpTableRepresentationProperties */
+       PCL_VISUALIZER_LUT_RANGE              /**< two doubles (min and max) or \ref pcl::visualization::LookUpTableRepresentationProperties::PCL_VISUALIZER_LUT_RANGE_AUTO */
+diff -rU3 pcl-pcl-1.8.1-patched/visualization/include/pcl/visualization/impl/pcl_visualizer.hpp pcl-pcl-1.8.1/visualization/include/pcl/visualization/impl/pcl_visualizer.hpp
+--- pcl-pcl-1.8.1-patched/visualization/include/pcl/visualization/impl/pcl_visualizer.hpp	2017-08-08 08:04:14.000000000 +0200
++++ pcl-pcl-1.8.1/visualization/include/pcl/visualization/impl/pcl_visualizer.hpp	2018-01-19 11:06:35.306562864 +0100
+@@ -600,7 +600,9 @@
+   actor->GetProperty ()->SetRepresentationToSurface ();
+   actor->GetProperty ()->SetInterpolationToFlat ();
+   actor->GetProperty ()->SetColor (r, g, b);
++#if VTK_MAJOR_VERSION < 8
+   actor->GetMapper ()->ImmediateModeRenderingOn ();
++#endif
+   actor->GetMapper ()->StaticOn ();
+   actor->GetMapper ()->ScalarVisibilityOff ();
+   actor->GetMapper ()->Update ();
+@@ -1428,7 +1430,9 @@
+   double minmax[2];
+   minmax[0] = std::numeric_limits<double>::min ();
+   minmax[1] = std::numeric_limits<double>::max ();
++#if VTK_MAJOR_VERSION < 8
+   am_it->second.actor->GetMapper ()->ImmediateModeRenderingOff ();
++#endif
+   am_it->second.actor->GetMapper ()->SetScalarRange (minmax);
+ 
+   // Update the mapper
+@@ -1464,7 +1468,9 @@
+   double minmax[2];
+   minmax[0] = std::numeric_limits<double>::min ();
+   minmax[1] = std::numeric_limits<double>::max ();
++#if VTK_MAJOR_VERSION < 8
+   am_it->second.actor->GetMapper ()->ImmediateModeRenderingOff ();
++#endif
+   am_it->second.actor->GetMapper ()->SetScalarRange (minmax);
+ 
+   // Update the mapper
+@@ -1540,7 +1546,9 @@
+   // Update the data
+   polydata->GetPointData ()->SetScalars (scalars);
+ 
++#if VTK_MAJOR_VERSION < 8
+   am_it->second.actor->GetMapper ()->ImmediateModeRenderingOff ();
++#endif
+   am_it->second.actor->GetMapper ()->SetScalarRange (minmax);
+ 
+   // Update the mapper
+diff -rU3 pcl-pcl-1.8.1-patched/visualization/src/pcl_visualizer.cpp pcl-pcl-1.8.1/visualization/src/pcl_visualizer.cpp
+--- pcl-pcl-1.8.1-patched/visualization/src/pcl_visualizer.cpp	2017-08-08 08:04:14.000000000 +0200
++++ pcl-pcl-1.8.1/visualization/src/pcl_visualizer.cpp	2018-01-19 11:15:21.413235116 +0100
+@@ -1146,7 +1146,9 @@
+         mapper->ScalarVisibilityOn ();
+       }
+     }
++#if VTK_MAJOR_VERSION < 8
+     mapper->ImmediateModeRenderingOff ();
++#endif
+ 
+     actor->SetNumberOfCloudPoints (int (std::max<vtkIdType> (1, data->GetNumberOfPoints () / 10)));
+     actor->GetProperty ()->SetInterpolationToFlat ();
+@@ -1226,7 +1228,9 @@
+         mapper->ScalarVisibilityOn ();
+       }
+     }
++#if VTK_MAJOR_VERSION < 8
+     mapper->ImmediateModeRenderingOff ();
++#endif
+ 
+     //actor->SetNumberOfCloudPoints (int (std::max<vtkIdType> (1, data->GetNumberOfPoints () / 10)));
+     actor->GetProperty ()->SetInterpolationToFlat ();
+@@ -1470,10 +1474,14 @@
+     // handle larger datasets. The default value is immediate mode off. If you
+     // are having problems rendering a large dataset you might want to consider
+     // using immediate more rendering.
++    // 
++	 // This mode is deprecated in VTK 8 and does not do anything with OpenGL2.
+     case PCL_VISUALIZER_IMMEDIATE_RENDERING:
+     {
++#if VTK_MAJOR_VERSION < 8
+       actor->GetMapper ()->SetImmediateModeRendering (int (value));
+       actor->Modified ();
++#endif
+       break;
+     }
+     case PCL_VISUALIZER_LINE_WIDTH:
+Only in pcl-pcl-1.8.1/visualization/src: .pcl_visualizer.cpp.swp

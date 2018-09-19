@@ -1,0 +1,11 @@
+--- outofcore/include/pcl/outofcore/impl/octree_disk_container.hpp.orig	2018-09-07 11:05:11.959695295 +0800
++++ outofcore/include/pcl/outofcore/impl/octree_disk_container.hpp	2018-09-07 11:15:13.342925298 +0800
+@@ -74,7 +74,7 @@
+     OutofcoreOctreeDiskContainer<PointT>::rand_gen_ (static_cast<unsigned int> (std::time(NULL)));
+ 
+     template<typename PointT>
+-    boost::uuids::random_generator OutofcoreOctreeDiskContainer<PointT>::uuid_gen_ (&rand_gen_);
++    boost::uuids::random_generator OutofcoreOctreeDiskContainer<PointT>::uuid_gen_;
+ 
+     template<typename PointT>
+     const uint64_t OutofcoreOctreeDiskContainer<PointT>::READ_BLOCK_SIZE_ = static_cast<uint64_t> (2e12);
