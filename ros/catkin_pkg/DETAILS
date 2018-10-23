@@ -1,12 +1,12 @@
           MODULE=catkin_pkg
-         VERSION=0.3.6
+         VERSION=0.4.9
           SOURCE=$MODULE-$VERSION.tar.gz
  SOURCE_URL_FULL=https://github.com/ros-infrastructure/catkin_pkg/archive/$VERSION.tar.gz
-      SOURCE_VFY=sha256:b05797352a89986a6c637ef33685a8cd004a8e5138b553f42a82065bc02f808b
+      SOURCE_VFY=sha256:ea166f0fa1165427529edb01f430daad5e0b9d8c91c28d6dc960790a8f97c513
         WEB_SITE=http://pypi.python.org/pypi/catkin_pkg
             TYPE=python3
          ENTERED=20130415
-         UPDATED=20170821
+         UPDATED=20181023
            SHORT="catkin package library for ROS"
 
 cat << EOF
