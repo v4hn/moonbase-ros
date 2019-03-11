@@ -19,7 +19,7 @@ depends urdfdom
 
 depends vcstools
 depends empy
-depends nose
+depends python-nose
 depends poco
 depends octave
 depends libccd
