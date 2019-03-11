@@ -5,7 +5,7 @@ depends flann
 depends eigen3
 
 optional_depends libpng  "-DWITH_PNG=1"    "-DWITH_PNG=0"    "for PNG image support"
-optional_depends qt4     "-DWITH_QT=1"     "-DWITH_QT=0"     "for Qt4 GUIs"
+optional_depends qt5     "-DWITH_QT=1"     "-DWITH_QT=0"     "for Qt4 GUIs"
 optional_depends VTK     "-DWITH_VTK=1"    "-DWITH_VTK=0"    "for visualization support (highly recommended)"
 optional_depends OpenNI  "-DWITH_OPENNI=1" "-DWITH_OPENNI=0" "for Kinect Point Cloud Grabber"
 optional_depends libusb  "-DWITH_LIBUSB=1" "-DWITH_LIBUSB=0" "for DINAST Hardware support"
