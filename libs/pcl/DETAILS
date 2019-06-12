@@ -1,12 +1,12 @@
           MODULE=pcl
-         VERSION=1.8.1
+         VERSION=1.9.1
           SOURCE=$MODULE-$VERSION.tar.gz
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$MODULE-$VERSION
       SOURCE_URL=https://github.com/PointCloudLibrary/pcl/archive
-      SOURCE_VFY=sha256:5a102a2fbe2ba77c775bf92c4a5d2e3d8170be53a68c3a76cfc72434ff7b9783
+      SOURCE_VFY=sha256:0add34d53cd27f8c468a59b8e931a636ad3174b60581c0387abb98a9fc9cddb6
         WEB_SITE=http://pointclouds.org
          ENTERED=20130911
-         UPDATED=20170821
+         UPDATED=20190612
            SHORT="Point Cloud Library"
 
 cat << EOF
