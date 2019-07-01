@@ -1,12 +1,12 @@
           MODULE=ignition-cmake
-         VERSION=0.6.0
+         VERSION=0.6.1
           SOURCE=${MODULE}_$VERSION.tar.bz2
       SOURCE_URL=https://bitbucket.org/ignitionrobotics/ign-cmake/get/
-      SOURCE_VFY=sha256:736026a98fdd18f3f6699cd12aef23cdfe8728330241e95fc7f5114abd65fb95
+      SOURCE_VFY=sha256:ba786c3feaf5e916b9f04ad2b271ccf9c720397cbbad2e464fb4646854ce497e
         WEB_SITE=http://ignitionrobotics.org/libraries/cmake
             TYPE=cmake
          ENTERED=20180904
-         UPDATED=20180904
+         UPDATED=20190701
            SHORT="cmake support for ignition projects"
 
 cat << EOF
