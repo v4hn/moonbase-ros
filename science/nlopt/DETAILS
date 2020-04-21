@@ -1,11 +1,11 @@
          MODULE=nlopt
-        VERSION=2.5.0
+        VERSION=2.6.2
          SOURCE=$MODULE-$VERSION.tar.gz
 SOURCE_URL_FULL=https://github.com/stevengj/nlopt/archive/v$VERSION.tar.gz
-     SOURCE_VFY=sha256:c6dd7a5701fff8ad5ebb45a3dc8e757e61d52658de3918e38bab233e7fd3b4ae
+     SOURCE_VFY=sha256:cfa5981736dd60d0109c534984c4e13c615314d3584cf1c392a155bfe1a3b17e
        WEB_SITE=http://ab-initio.mit.edu/wiki/index.php/NLopt
         ENTERED=20160530
-        UPDATED=20180904
+        UPDATED=20200421
           SHORT="library for nonlinear optimization"
 
 cat << EOF
