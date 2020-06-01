@@ -1,1 +1,0 @@
-optional_depends guile "--with-guile" "--without-guile" "for guile bindings"
