@@ -1,4 +1,0 @@
-default_pre_build &&
-
-# print build process
-sedit "s:> ':| tee ':; /doxygen/ d" Platform/Linux/CreateRedist/Redist_OpenNi.py

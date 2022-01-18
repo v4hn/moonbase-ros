@@ -77,8 +77,6 @@ optional_depends postgresql "" "" "for ros' sql_database module"
 
 optional_depends SDL_image "" "" "for ros' map_server module"
 
-optional_depends OpenNI "" "" "OpenNI support"
-
 #optional_depends pyside "" "" "Python bindings for GUIs"
 
 optional_depends gazebo "" "" "for the fully fledged Robot Simulator"
