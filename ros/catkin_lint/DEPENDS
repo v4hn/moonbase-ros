@@ -1,4 +1,0 @@
-depends python
-depends python-setuptools
-depends rospkg
-depends rosdep
