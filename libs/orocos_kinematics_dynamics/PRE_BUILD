@@ -1,0 +1,4 @@
+default_pre_build &&
+
+# use system pybind11
+sedit 's/add_subdirectory(pybind11)/find_package(pybind11 CONFIG)/' python_orocos_kdl/CMakeLists.txt

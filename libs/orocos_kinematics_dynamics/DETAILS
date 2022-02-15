@@ -1,0 +1,15 @@
+          MODULE=orocos_kinematics_dynamics
+         VERSION=1.5.1
+          SOURCE=$MODULE-$VERSION.tar.gz
+ SOURCE_URL_FULL=https://github.com/orocos/orocos_kinematics_dynamics/archive/refs/tags/v$VERSION.tar.gz
+      SOURCE_VFY=sha256:5acb90acd82b10971717aca6c17874390762ecdaa3a8e4db04984ea1d4a2af9b
+        WEB_SITE=https://github.com/orocos/orocos_kinematics_dynamics
+         ENTERED=20220215
+         UPDATED=20220215
+           SHORT="RealTime usable kinematics and dynamics code"
+
+cat << EOF
+Orocos project to supply RealTime usable kinematics and dynamics code,
+it contains code for rigid body kinematics calculations and representations
+for kinematic structures and their inverse and forward kinematic solvers.
+EOF
