@@ -1,15 +1,15 @@
           MODULE=pcl
-         VERSION=1.10.1
+         VERSION=1.12.1
           SOURCE=$MODULE-$VERSION.tar.gz
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$MODULE-$VERSION
       SOURCE_URL=https://github.com/PointCloudLibrary/pcl/archive
-      SOURCE_VFY=sha256:61ec734ec7c786c628491844b46f9624958c360012c173bbc993c5ff88b4900e
+      SOURCE_VFY=sha256:dc0ac26f094eafa7b26c3653838494cc0a012bd1bdc1f1b0dc79b16c2de0125a
         WEB_SITE=http://pointclouds.org
          ENTERED=20130911
-         UPDATED=20210212
+         UPDATED=20220214
            SHORT="Point Cloud Library"
 
 cat << EOF
 The Point Cloud Library (or PCL) is a large scale,
-open project for 2D/3D image and point cloud processing. 
+open project for 2D/3D image and point cloud processing.
 EOF
